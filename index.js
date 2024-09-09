@@ -1,5 +1,14 @@
-const name= "Carpaccio de higos";
-const img= "https://laspiedras.cl/wp-content/uploads/2021/05/Captura-de-Pantalla-2021-05-31-a-las-13.09.15.png";
+document.querySelector ("h1").innerText= "Productos";
+array= [];
+for (const i= 1 ; i <= 9 ; i++) {
+    const cards= 
+ `<div class="card">
+<img src="https://66d9ee6caa07a954166f10ed--gregarious-melba-cacdba.netlify.app/${i}.jpg" alt="">
+<p>Producto ${i}</p>
+</div>` ;
+array.push(cards);
+document.querySelector("section").innerHTML = (array);
+}
 
-document.querySelector ("p").innerText= name;
-document.querySelector ("img").src= img;
+//const container= document.querySelector ("section.container");
+//container.innerHTML= array.join('');

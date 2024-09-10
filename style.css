@@ -18,3 +18,12 @@ img {
     width: 200px;
     border-radius: 15px;
 }
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}

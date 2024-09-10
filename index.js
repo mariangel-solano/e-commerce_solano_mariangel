@@ -10,9 +10,6 @@ for (let i=1 ; i <= 9 ; i++) {
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>`) ;
+}
 section.innerHTML = array.join(``).replaceAll(",", "");
 document.querySelector(".container ").innerHTML = (array);
-}
-
-//const container= document.querySelector ("section.container");
-//container.innerHTML= array.join('');

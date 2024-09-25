@@ -1,3 +1,7 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .contenedor{
     display: flex;
     flex-direction: rown;
@@ -12,11 +16,6 @@
     border-radius: 10px;
     padding: 15px;
     margin: 10px;
-}
-img {
-    object-fit: cover;
-    width: 200px;
-    border-radius: 15px;
 }
 
 h1 {

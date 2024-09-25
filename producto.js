@@ -15,7 +15,7 @@ let etiquetas=  ` <div>
 <p> Detalle: ${auto.detalle}</p>
 <p> Precio: ${auto.precio}</p>
 <p> Stock: ${auto.stock}</p>
-<img src="${auto.imagen}" alt="Imagen del auto widht="150" height="150" />
+<img src="${auto.imagen}" alt="Imagen del auto widht="80%" height="300px" />
 </div>
 `
 let main= document.querySelector ("main");

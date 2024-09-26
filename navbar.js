@@ -1,7 +1,7 @@
 let navbar = [
     {categoria: "Inicio", href: "/index.html"},
     {categoria: "Productos", href: "/producto.html"},
-    {categoria: "Contactos", href: "/contactos"}
+    {categoria: "Contactos", href: "#"}
 ]
 
 let header= document.querySelector ("header");

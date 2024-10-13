@@ -68,7 +68,7 @@ const cards = autos.map((auto) =>
      <div class="card-body">
        <h5 class="card-title">Car ${auto.modelo}</h5>
        <p class="card-text">${auto.descripcion}</p>
-       <a href="/pages/producto.html?prod=${auto.id}" class="btn btn-primary">Ver más</a>
+       <a href="/producto.html?prod=${auto.id}" class="btn btn-primary">Ver más</a>
      </div>
    </div> `);
 

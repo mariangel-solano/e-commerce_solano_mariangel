@@ -24,6 +24,14 @@ let a =
                     ${menu.join().replaceAll(",", "")}
                 </div>
                 </div>
+                ${localStorage.getItem("email")? 
+                    `<span>${localStorage.getItem("email")}</span> | <span onclick="logOut()">Cerrar sesión</span>`
+                     : `<a href ="./login.html"<span style= class="text-decoration-none">Iniciar Sesión</span></a>`}
             </div>
         </nav>`
 header.innerHTML = a;
+
+function logOut (){
+    localStorage.clear();
+    location.href = "./index.html"
+}
